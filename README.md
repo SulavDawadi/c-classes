@@ -1,1 +1,1 @@
-ok so now i have created a c++ file where i will ljust add code daily and hopefully explore other parts of the github as welll.
+ok so now i have created a c++ file where i will ljust add code daily and hopefully explore other parts of the github as welll. and the next things is in class if i get bored then i will just solve some mathematics problem now won't i. but for now lets solve the circuit .. and read some theory as well.
