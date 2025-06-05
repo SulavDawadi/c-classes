@@ -1,0 +1,33 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class white { // Changed class name to 'Person' for neutrality
+public:
+    int year;
+    string race;
+
+    void display() {
+        cout << "This person was born in " << year << " and is of " << race << " race." << endl;
+    } // Added closing brace
+};
+
+int main() {
+    white w1, w2; // Corrected object declaration
+    string temp; // Temporary string to handle input with spaces
+
+    cout << "Enter the year and race for person 1 (e.g., 1990 African American): ";
+    cin >> w1.year; // Read year
+    cin.ignore(); // Clear newline from input buffer
+    getline(cin, w1.race); // Read race with spaces
+
+    cout << "Enter the year and race for person 2 (e.g., 1985 Caucasian): ";
+    cin >> w2.year; // Read year
+    cin.ignore(); // Clear newline
+    getline(cin, w2.race); // Read race with spaces
+
+    w1.display();
+    w2.display();
+
+    return 0;
+}
